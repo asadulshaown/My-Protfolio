@@ -1,0 +1,60 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+} */
+ /* header */
+
+ .logo{
+  background-image: url(server3.jpeg);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+ }
+
+/* herosection */
+.heroSec{
+  background-image: url(server.jpg);
+  animation: hero 10s infinite 1s;
+  transition: 5s;
+  
+}
+@keyframes hero{
+  0%{
+    background-image: url(univers2.jpg);
+    background-size: cover;
+  }
+  50%{
+    background-image: url(technology2.jpg);
+    background-size: cover;
+    
+  }
+  100%{
+
+    background-image: url(waterDrop2.jpg);
+    background-size: cover;
+
+  }
+}
+
+ /* skill.jsx */
+.skill_list{
+  font-style: italic;
+  
+}
+.time{
+  background-image: url(server3.jpeg);
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  
+
+}
+
+
+/* project.jsx */
+
+.project_div:hover{
+  transform: scale(1.1);
+  transition: linear 0.4s;
+}
+
+
