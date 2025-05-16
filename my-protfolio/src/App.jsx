@@ -18,12 +18,12 @@ function App() {
     <HeroSecetion />
     <Skill/>
     <Knowledge/>
-    <Project/>
-    <Contact/>
+    <Project/> 
     <Footer/>
+    <Contact/>
     <button className='text-3xl font-bold border-4 border-white border-r-green-500 p-3 fixed top-96 right-1 bg-green-500 text-red-600'>
           ^
-          </button>
+    </button>
     
    </div>
   )

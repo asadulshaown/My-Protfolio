@@ -16,10 +16,10 @@ const Contact = () => {
   return (
     <div className='bg-neutral-500'>
         <div className='m-4  p-4 text-center'>
-          <a href='#'>{massage}</a>
-          <a href='01300285547'>{whatsapp}</a>
+          <a href='###'>{massage}</a>
+          <a href='https://wa.me/01300285547' target='_blank'>{whatsapp}</a>
           <a href='https://www.youtube.com/channel/UC1iSeKc_R6KUSWtWtW3yTmw'>{youtube}</a>
-          <a href='#'>{linkdin}</a>
+          <a href='https://www.linkedin.com/in/md-asadul-shaown-b81b75296/'>{linkdin}</a>
           <a href='https://github.com/asadulshaown'>{github}</a>
           <a href='https://www.facebook.com/nirasha.khan.92'>{facebook}</a>      
 

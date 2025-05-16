@@ -1,8 +1,9 @@
+
+
 import React from 'react'
 
 const Header = () => {
 
-  const date =  Date();
   const newdate = new Date();
   const localTime = newdate.toLocaleTimeString();
   const localDate = newdate.toLocaleDateString()
@@ -10,7 +11,7 @@ const Header = () => {
 
   return (
     <header className='mt-1 mb-4 grid grid-cols-3 sticky top-0  bg-slate-100 overflow-x-hidden shadow-md shadow-slate-500'>
-      <img  className='w-32 h-32 border-8 m-1 border-black  rounded-full ' src="profile.jpg" alt="" />
+      <img  className='w-32 h-32 border-8 m-1 border-black  rounded-full ' src="../public/Images/profile.jpg" alt="Profile Picture" />
        <div className=''>
        <h1 className='logo mt-2 text-5xl md:text-6xl lg:text-7xl   font-serif font-bold'>
       AS ASA      
@@ -22,15 +23,18 @@ const Header = () => {
         {localDate}
       </h1>
        </div>
-      <ul className='inline-block font-bold font-serif overflow-auto mt-5'>
-        <li className='text-green-700 m-3 inline border-b-2 border-b-green-700 hover:border-green-500 hover:text-green-500 hover:transition cursor-pointer'>HOME</li>
-        <li className='text-green-700 m-3 inline border-b-2 border-b-green-700 hover:border-green-500 hover:text-green-500 hover:transition cursor-pointer'>SKILL</li>
-        <li className='text-green-700 m-3 inline border-b-2 border-b-green-700 hover:border-green-500 hover:text-green-500 hover:transition cursor-pointer'>KNOWLEDGE</li>
-        <li className='text-green-700 m-3 inline border-b-2 border-b-green-700 hover:border-green-500 hover:text-green-500 hover:transition cursor-pointer'>PROJECT</li>
-        <li className='text-green-700 m-3 inline border-b-2 border-b-green-700 hover:border-green-500 hover:text-green-500 hover:transition cursor-pointer'>CONTACT</li>
-      </ul>
-      
+
+       <div>
+        <ul className=' inline-flex gap-4 mt-3 font-serif font-semibold'>
+           <li><a href="./Contact.jsx" className=' inline-block border-b-2 border-b-green-900 '> Contract</a></li>
+          <li><a href="./Knowledge.jsx"> Knowledge</a></li>
+          <li><a href="./Skill.jsx"> Skill</a></li>
+          <li><a href="./Project.jsx"> Project</a></li>
+        </ul>
         
+       </div>
+
+      
     </header>
   )
 }
