@@ -6,31 +6,31 @@
  /* header */
 
  .logo{
-  background-image: url(../public/Images/server3.jpeg);
+  background-image: url(/src/assets/Images/server3.jpeg);
   -webkit-text-fill-color: transparent;
   background-clip: text;
  }
 
 /* herosection */
 .heroSec{
-  background-image: url(../public/Images/server.jpg);
+  background-image: url(/src/assets/Images/server.jpg);
   animation: hero 10s infinite 1s;
   transition: 5s;
   
 }
 @keyframes hero{
   0%{
-    background-image: url(../public/Images/univers2.jpg);
+    background-image: url(/src/assets/Images/univers2.jpg);
     background-size: cover;
   }
   50%{
-    background-image: url(../public/Images/technology2.jpg);
+    background-image: url(/src/assets/Images/technology2.jpg);
     background-size: cover;
     
   }
   100%{
 
-    background-image: url(../public/Images/waterDrop2.jpg);
+    background-image: url(/src/assets/Images/waterDrop2.jpg);
     background-size: cover;
 
   }

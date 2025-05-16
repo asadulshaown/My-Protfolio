@@ -8,27 +8,27 @@ const Project = () => {
         </h1>
         <div className='grid grid-cols-3'>
           <div className='m-2 hover:scale-110 transition duration-500'>
-            <img src='../public/Images/code1.png'>
+            <img src='/src/assets/Images/code1.png'>
              </img>
           </div>
           <div className='m-2 project_div'>
-            <img src='../public/Images/code2.png'>
+            <img src='/src/assets/Images/code2.png'>
              </img>
           </div>
           <div className='m-2 project_div'>
-            <img src='../public/Images/code3.png'>
+            <img src='/src/assets/Images/code3.png'>
              </img>
           </div>
           <div className='m-2 project_div'>
-            <img src='../public/Images/code1.png'>
+            <img src='/src/assets/Images/code1.png'>
              </img>
           </div>
           <div className='m-2 project_div'>
-            <img src='../public/Images/code2.png'>
+            <img src='/src/assets/Images/code2.png'>
              </img>
           </div>
           <div className='m-2 project_div'>
-            <img src='../public/Images/code2.png'>
+            <img src='/src/assets/Images/code2.png'>
              </img>
           </div>
 
