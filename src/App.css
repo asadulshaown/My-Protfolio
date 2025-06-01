@@ -1,10 +1,9 @@
 /* *{
   margin: 0;
   padding: 0;
-  background-color: black;
 } */
- /* header */
 
+ /* header */
  .logo{
   background-image: url(/src/assets/Images/server3.jpeg);
   -webkit-text-fill-color: transparent;
@@ -12,13 +11,11 @@
  }
 
 /* herosection */
-.heroSec{
+/* .heroSec{
   background-image: url(/src/assets/Images/server.jpg);
-  animation: hero 10s infinite 1s;
-  transition: 5s;
-  
-}
-@keyframes hero{
+
+} */
+/* @keyframes hero{
   0%{
     background-image: url(/src/assets/Images/univers2.jpg);
     background-size: cover;
@@ -34,27 +31,9 @@
     background-size: cover;
 
   }
-}
+} */
 
  /* skill.jsx */
 .skill_list{
   font-style: italic;
-  
 }
-.time{
-  background-image: url(../public/Images/server3.jpeg);
-  -webkit-text-fill-color: transparent;
-  background-clip: text; 
-  
-
-}
-
-
-/* project.jsx */
-
-.project_div:hover{
-  transform: scale(1.1);
-  transition: linear 0.4s;
-}
-
-

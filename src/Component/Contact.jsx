@@ -14,14 +14,14 @@ const Contact = () => {
   const facebook = <FontAwesomeIcon icon={faFacebook} className='text-3xl m-3 p-2 border border-white rounded-full hover:bg-white hover:text-green-700 hover:-translate-y-2 hover:transition-all '/>
   
   return (
-    <div className='bg-neutral-500'>
+    <div className=' container bg-neutral-500 '>
         <div className='m-4  p-4 text-center'>
           <a href='###'>{massage}</a>
           <a href='https://wa.me/01300285547' target='_blank'>{whatsapp}</a>
-          <a href='https://www.youtube.com/channel/UC1iSeKc_R6KUSWtWtW3yTmw'>{youtube}</a>
-          <a href='https://www.linkedin.com/in/md-asadul-shaown-b81b75296/'>{linkdin}</a>
-          <a href='https://github.com/asadulshaown'>{github}</a>
-          <a href='https://www.facebook.com/nirasha.khan.92'>{facebook}</a>      
+          <a href='https://www.youtube.com/channel/UC1iSeKc_R6KUSWtWtW3yTmw' target='_blank'>{youtube}</a>
+          <a href='https://www.linkedin.com/in/md-asadul-shaown-b81b75296/' target='_blank'>{linkdin}</a>
+          <a href='https://github.com/asadulshaown' target='_blank'>{github}</a>
+          <a href='https://www.facebook.com/nirasha.khan.92' target='_blank'>{facebook}</a>      
 
         </div>
     </div>

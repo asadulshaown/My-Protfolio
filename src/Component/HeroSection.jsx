@@ -1,30 +1,13 @@
 
 import React from 'react'
 
-const HeroSecetion = () => {
-  
-//   const newdate = new Date();
-//   const H = newdate.getHours()
-// if (H == 21) {
-   
-  
-  
-// }
-// else{
-//   console.log(H);
-  
-// }
-//   const M = newdate.getMinutes()
-//   const S = newdate.getSeconds()
-
-//   //console.log(year);
-  
+const HeroSection = () => {
   return (
-    <div className='heroSec h-screen p-5   ml-2 mr-2   shadow shadow-gray-950 '>
-     
+    <div className=' container p-4 sm:bg-red-500 md:bg-green-500 lg:bg-blue-500 border-2 border-stone-700'>
+      <h1>Hero Section</h1>
 
     </div>
   )
 }
 
-export default HeroSecetion
+export default HeroSection
