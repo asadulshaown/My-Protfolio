@@ -9,7 +9,7 @@ import Knowledge from "./Component/Knowledge";
 import Project from "./Component/Project";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
-// import UpDownButton from "./Component/upDownButton";
+//import UpDownButton from "./Component/upDownButton";
 
 import AOS from 'aos'; // import AOS Animation
 import 'aos/dist/aos.css';

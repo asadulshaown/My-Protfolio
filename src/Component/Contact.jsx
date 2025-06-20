@@ -17,7 +17,7 @@ const Contact = () => {
     <div className=' container bg-neutral-500 '>
         <div className='m-4  p-4 text-center'>
           <a href='###'>{massage}</a>
-          <a href='https://wa.me/01300285547' target='_blank'>{whatsapp}</a>
+          <a href='https://wa.me/+8801300285547' target='_blank'>{whatsapp}</a>
           <a href='https://www.youtube.com/channel/UC1iSeKc_R6KUSWtWtW3yTmw' target='_blank'>{youtube}</a>
           <a href='https://www.linkedin.com/in/md-asadul-shaown-b81b75296/' target='_blank'>{linkdin}</a>
           <a href='https://github.com/asadulshaown' target='_blank'>{github}</a>
