@@ -1,34 +1,40 @@
-  import React from 'react'
+// components/SkillSection.jsx
 
-  const Skill = () => {
-    return (
-      <>
-      
-      <div className='container bg-slate-300 mt-10  shadow shadow-gray-950 text-cyan-50 '>
-        <h1 className='inline-block text-center font-bold font-serif text-green-950 text-3xl m-10 '>
-          Skill Is Combination Of Knowledge And Smart Working Over The Time optimaiztion
-        </h1>
-        <div className=' grid grid-cols-2'>
-          <ol className=' inline-block m-8  text-2xl font-serif text-black skill_list' data-aos="zoom-in-down">
-            <li >Teaching</li>
-            <li>Computer operating</li>
-            <li>Computer Expolorer</li>
-            <li>IT Supourt</li>
-            <li>Web Development</li>
-          </ol> 
+import React from "react";
 
-          <ol className=' inline-block m-8  text-2xl font-serif text-black skill_list' data-aos="zoom-in-down">
-            <li className=''>Teaching</li>
-            <li>Computer operating</li>
-            <li>Computer Expolorer</li>
-            <li>IT Supourt</li>
-            <li>Web Development</li>
-          </ol> 
+const skills = [
+  { name: "HTML", color: "text-orange-600", icon: "🌐" },
+  { name: "CSS", color: "text-blue-600", icon: "🎨" },
+  { name: "JavaScript", color: "text-yellow-500", icon: "🧠" },
+  { name: "React", color: "text-cyan-500", icon: "⚛️" },
+  { name: "Tailwind CSS", color: "text-sky-500", icon: "💨" },
+  { name: "Django", color: "text-green-700", icon: "🖥️" },
+  { name: "SQLite", color: "text-gray-600", icon: "💾" },
+  { name: "Git", color: "text-red-600", icon: "🔧" },
+];
+
+const SkillSection = () => {
+  return (
+    <section id="skills" className="bg-gray-100 py-16">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+          My Skills
+        </h2>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition duration-300"
+            >
+              <div className={`text-4xl mb-3 ${skill.color}`}>{skill.icon}</div>
+              <h3 className="text-lg font-semibold text-gray-700">{skill.name}</h3>
+            </div>
+          ))}
         </div>
-      
       </div>
-      </>
-    )
-  }
+    </section>
+  );
+};
 
-  export default Skill
+export default SkillSection;

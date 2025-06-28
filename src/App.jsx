@@ -6,10 +6,11 @@ import Header from "./Component/Header"
 import HeroSection from "./Component/HeroSection";
 import Skill from "./Component/Skill";
 import Knowledge from "./Component/Knowledge";
-import Project from "./Component/Project";
+import ProjectCode from "./Component/ProjectCode";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
-//import UpDownButton from "./Component/upDownButton";
+import ProjectSection from "./Component/Project";
+
 
 import AOS from 'aos'; // import AOS Animation
 import 'aos/dist/aos.css';
@@ -17,7 +18,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-  AOS.init({ duration: 2500 });
+  AOS.init({ duration: 2000 });
   }, []);// use AOS for animation
 
   return (
@@ -26,10 +27,11 @@ function App() {
     <HeroSection />
     <Skill />
     <Knowledge />
-    <Project /> 
+    <ProjectSection/>
+    <ProjectCode /> 
     <Footer />
     <Contact />
-    {/* <UpDownButton /> */}
+    
     
    </div>
   )
