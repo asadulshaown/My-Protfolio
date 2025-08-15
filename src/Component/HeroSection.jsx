@@ -13,7 +13,7 @@ const HeroSection = () => {
           Build Your Dream Product
           with <span class="text-blue-600">Speed & Style</span>
         </h1>
-        <p class="md:text-lg text-gray-600" data-aos="fade-left">
+        <p class="md:text-lg text-gray-600" data-aos="fade-up">
           We help startups and businesses create scalable, modern, and user-friendly applications.
         </p>
         <div class=" hidden md:flex space-x-4">

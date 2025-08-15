@@ -31,7 +31,7 @@
          {/* Social Media  */}
         <div>
           <a href="#contacts">
-              <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-left">Follow Me</h3>
+              <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-down">Follow Me</h3>
           </a>
           <div class="flex space-x-4">
             <a href="#" class="hover:text-white text-xl" ><i class="fab fa-facebook"></i></a>
