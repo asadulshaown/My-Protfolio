@@ -16,7 +16,7 @@
 
        {/* Quick Links  */}
         <div>
-          <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-right">Quick Links</h3>
+          <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-down">Quick Links</h3>
           <ul class="space-y-2" data-aos="fade-down">
             <li><a href="#abouts" class="hover:text-white">About Me</a></li>
 
