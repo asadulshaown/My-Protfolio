@@ -8,31 +8,39 @@
 
         {/* About / Brand  */}
         <div>
-          <h2 class="text-2xl font-bold text-white">MD ASADUL SHAOWN</h2>
-          <p class="mt-4 text-gray-400">
+          <h2 class="text-2xl font-bold text-white" data-aos="fade-down">MD ASADUL SHAOWN</h2>
+          <p class="mt-4 text-gray-400" data-aos="fade-up">
             Passionate web developer. I build modern, responsive, and accessible websites and web apps.
           </p>
         </div>
 
        {/* Quick Links  */}
         <div>
-          <h3 class="text-xl font-semibold text-white mb-4">Quick Links</h3>
-          <ul class="space-y-2">
-            <li><a href="#about" class="hover:text-white">About Me</a></li>
+          <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-right">Quick Links</h3>
+          <ul class="space-y-2" data-aos="fade-down">
+            <li><a href="#abouts" class="hover:text-white">About Me</a></li>
+
             <li><a href="#projects" class="hover:text-white">Projects</a></li>
-            <li><a href="#contact" class="hover:text-white">Contact</a></li>
+
+            <li><a href="#contacts" class="hover:text-white" >Contact</a></li>
+
             <li><a href="#resume" class="hover:text-white">Resume</a></li>
           </ul>
         </div>
 
          {/* Social Media  */}
         <div>
-          <h3 class="text-xl font-semibold text-white mb-4">Follow Me</h3>
+          <a href="#contacts">
+              <h3 class="text-xl font-semibold text-white mb-4" data-aos="fade-left">Follow Me</h3>
+          </a>
           <div class="flex space-x-4">
-            <a href="#" class="hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="hover:text-white text-xl"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="hover:text-white text-xl"><i class="fab fa-github"></i></a>
-            <a href="#" class="hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-white text-xl" ><i class="fab fa-facebook"></i></a>
+
+            <a href="#" class="hover:text-white text-xl" ><i class="fab fa-linkedin"></i></a>
+
+            <a href="#" class="hover:text-white text-xl" ><i class="fab fa-github"></i></a>
+
+            <a href="#" class="hover:text-white text-xl" ><i class="fab fa-twitter"></i></a>
           </div>
         </div>
 

@@ -18,7 +18,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-  AOS.init({ duration: 2000 });
+  AOS.init({ duration: 1000 });
   }, []);// use AOS for animation
 
   return (
@@ -27,7 +27,7 @@ function App() {
     <HeroSection />
     <Skill />
     <Knowledge />
-    <ProjectSection/>
+    <ProjectSection />
     <ProjectCode /> 
     <Footer />
     <Contact />

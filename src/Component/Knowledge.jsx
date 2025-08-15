@@ -41,23 +41,21 @@ const skills = [
 const KnowledgeSection = () => {
   return (
     <section id="knowledge" className="bg-gray-100 py-16">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6" >
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
           My Knowledge
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center" >
           {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition"
+            <div key={index} className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition" data-aos="flip-down"
             >
               <img
                 src={skill.icon}
                 alt={skill.name}
                 className="w-12 h-12 mx-auto mb-4"
               />
-              <h3 className="text-lg font-semibold text-gray-700">{skill.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-700" data-aos="fade-up">{skill.name}</h3>
             </div>
           ))}
         </div>

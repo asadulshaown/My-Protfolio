@@ -23,12 +23,10 @@ const SkillSection = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
           {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition duration-300"
+            <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition duration-300" data-aos="flip-down"
             >
               <div className={`text-4xl mb-3 ${skill.color}`}>{skill.icon}</div>
-              <h3 className="text-lg font-semibold text-gray-700">{skill.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-700" data-aos="fade-down">{skill.name}</h3>
             </div>
           ))}
         </div>
